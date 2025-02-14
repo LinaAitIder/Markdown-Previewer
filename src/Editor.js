@@ -8,7 +8,7 @@ class Editor extends React.Component {
     super(props);
     this.getText = this.getText.bind(this);
     this.state = {
-        markdownText : "",
+        markdownText : "a",
         plainText : ""
     }
   }
