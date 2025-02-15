@@ -1,6 +1,8 @@
 import React from "react";
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
-
+marked.setOptions({
+  breaks: true,
+});
 
 class Editor extends React.Component {
   constructor(props){
@@ -50,7 +52,7 @@ And here. | Okay. | I think we get it.
 `;
     this.state = {
         plainText : initialText,
-        markdownText :  marked.parse(initialText)
+        markdownText :  marked(initialText)
     }
   }
 
@@ -60,7 +62,7 @@ And here. | Okay. | I think we get it.
       const inputText = event.target.value;
       this.setState({
           plainText: inputText,
-          markdownText : marked.parse(inputText),
+          markdownText : marked(inputText),
         }    
       );  
   }
