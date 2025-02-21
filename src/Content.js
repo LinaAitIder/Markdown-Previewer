@@ -88,13 +88,13 @@ And here. | Okay. | I think we get it.
         </textarea>
         </div>
         
-        <div className="container mt-2 p-3 previewContainer ">
+        <div className="container mt-3 p-3 previewContainer ">
         <div className="mb-3 desc-container">
           <i className="bi bi-blockquote-left m-2 text-light">
           </i>
           <span className="fs-3 fw-bold mb-3 text-light">Preview</span>
           <br />
-          <span className="fst-italic fw-light text-light">[ Here write you can see the result ]</span>
+          <span className="fst-italic fw-light text-light">[ Here you can see the result ]</span>
         </div>
         <div id="preview" className="p-5 container "  dangerouslySetInnerHTML={{ __html: this.state.markdownText }}/>
       </div>
