@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Markdown-previewer/static/css/main.81ce0884.css",
-    "main.js": "/Markdown-previewer/static/js/main.5fdc01c9.js",
-    "static/js/845.03fcedc6.chunk.js": "/Markdown-previewer/static/js/845.03fcedc6.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/Markdown-previewer/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
-    "static/media/bootstrap-icons.woff2?": "/Markdown-previewer/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
-    "index.html": "/Markdown-previewer/index.html",
-    "main.81ce0884.css.map": "/Markdown-previewer/static/css/main.81ce0884.css.map",
-    "main.5fdc01c9.js.map": "/Markdown-previewer/static/js/main.5fdc01c9.js.map",
-    "845.03fcedc6.chunk.js.map": "/Markdown-previewer/static/js/845.03fcedc6.chunk.js.map"
+    "main.css": "/Markdown-Previewer/static/css/main.caa1ba4e.css",
+    "main.js": "/Markdown-Previewer/static/js/main.6fac86c7.js",
+    "static/js/845.03fcedc6.chunk.js": "/Markdown-Previewer/static/js/845.03fcedc6.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/Markdown-Previewer/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Markdown-Previewer/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "index.html": "/Markdown-Previewer/index.html",
+    "main.caa1ba4e.css.map": "/Markdown-Previewer/static/css/main.caa1ba4e.css.map",
+    "main.6fac86c7.js.map": "/Markdown-Previewer/static/js/main.6fac86c7.js.map",
+    "845.03fcedc6.chunk.js.map": "/Markdown-Previewer/static/js/845.03fcedc6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ce0884.css",
-    "static/js/main.5fdc01c9.js"
+    "static/css/main.caa1ba4e.css",
+    "static/js/main.6fac86c7.js"
   ]
 }
