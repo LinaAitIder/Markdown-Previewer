@@ -1,12 +1,12 @@
 import './App.css';
 import React from "react";
-import Editor from './Editor.js';
+import Content from './Content.js';
 
 
 function App() {
   return (
     <div className="App">
-    <Editor />
+    <Content />
   </div>
   );
 }

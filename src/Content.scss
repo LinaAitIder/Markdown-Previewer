@@ -1,0 +1,38 @@
+.editorContainer{
+  border-radius: 20px;
+  background-color: #A35C7A;
+  color: white;
+  resize:auto;
+
+  #editor{
+    height :250px !important;
+    outline: none;
+    border:none;
+    resize : vertical;
+  }
+  .bi-pencil-square{
+  font-size: 30px !important;
+  }
+}
+
+
+
+.desc-container{
+  font-family: "EB Garamond", serif;
+}
+
+
+.previewContainer{
+  height:auto;
+  border-radius: 20px;
+  background-color: #C890A7;
+  img{
+    width:50%!important;
+  }
+  #preview{
+    background-color: white;
+  }
+  .bi{
+    font-size: 33px !important;
+  }
+}

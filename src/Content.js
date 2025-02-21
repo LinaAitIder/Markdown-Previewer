@@ -1,7 +1,8 @@
 import React from "react";
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 import 'bootstrap/dist/css/bootstrap.css';
-import './Editor.scss'
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import './Content.scss'
 
 
 
@@ -9,7 +10,7 @@ marked.setOptions({
   breaks: true,
 });
 
-class Editor extends React.Component {
+class Content extends React.Component {
   constructor(props){
     super(props);
     this.getText = this.getText.bind(this);
@@ -74,17 +75,28 @@ And here. | Okay. | I think we get it.
 
   render(){
     return(
-      <div className="d-flex flex-column m-4">
+      <div className="d-flex flex-column m-1 p-5">
 
-        <div className="container p-3 bg-danger">
-        <p className="fw-bold fs-3">Editor</p>
-        <textarea id="editor" className="container editorContainer mt-4" onChange={this.getText} value= {this.state.plainText}>
+        <div className="container p-3  editorContainer">
+          <div className="mb-3 desc-container">
+            <i class="bi bi-pencil-square m-2 "></i> 
+            <span className="fs-3 fw-bold mb-3">Editor</span>
+            <br/>
+            <span className="fst-italic fw-light">[ Here write your markdown text ]</span>
+          </div>
+        <textarea id="editor" className="container mt-1" onChange={this.getText} value= {this.state.plainText}>
         </textarea>
         </div>
-
-        <div className="container  m-4 p-3 previewContainer bg-primary">
-          <p className="fs-3 fw-bold">Preview</p>
-        <div id="preview" className="p-5 container bg-white "  dangerouslySetInnerHTML={{ __html: this.state.markdownText }}/>
+        
+        <div className="container mt-2 p-3 previewContainer ">
+        <div className="mb-3 desc-container">
+          <i className="bi bi-blockquote-left m-2 text-light">
+          </i>
+          <span className="fs-3 fw-bold mb-3 text-light">Preview</span>
+          <br />
+          <span className="fst-italic fw-light text-light">[ Here write you can see the result ]</span>
+        </div>
+        <div id="preview" className="p-5 container "  dangerouslySetInnerHTML={{ __html: this.state.markdownText }}/>
       </div>
       </div>
     );
@@ -92,4 +104,4 @@ And here. | Okay. | I think we get it.
   
 }
 
-export default Editor;
+export default Content;
